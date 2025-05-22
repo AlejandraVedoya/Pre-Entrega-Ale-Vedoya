@@ -48,12 +48,16 @@ body {
       list-style: none;
       text-align:center;
     }
-    .Reseñas{
+    
+    }
+  
+.Reseñas{
       display: flex;
       background-color: #afa3c9;
       width: 100vw;
       h3, h4{
-        
+        margin-left: 1rem;
+        margin-top: 0.5rem;
         font-size: 20px;
         color: #3b72e2;
         padding: 0.5rem;
@@ -64,17 +68,14 @@ body {
             font-size: 15px ;
           }
         }
-    .foto-ropa{
-        width: 600px;
+.foto-ropa{
+        width: 400px;
       }
-    .iframe{
-        width: 500px;
-        height: 500px;
+.iframe{
+        width: 400px;
+        height: 400px;
       }
-
-    }
-  
-    
+ 
   
 .grid-container {
   display: grid;
@@ -230,10 +231,33 @@ h1{
 .header{
   font-size: smaller;
   }
-section{
-  display:block;
-  
-}
+.Reseñas{
+      display: block;
+      
+      h3, h4{
+        text-align: center;
+        font-size: 20px;
+        color: #3b72e2;
+      }    
+          p{
+            color: #2a4049;
+            font-size: 12px ;
+            background-color: #c8b3f5;
+            padding: 10px;
+            margin-right: 2rem;
+            
+          }
+        }
+.foto-ropa{
+  margin-left: 2.5rem;
+        width: 400px;
+        height: 400px;
+      }
+.mapa{
+        padding-left: 5rem;
+        width: 400px;
+        height: 400px;
+      }
 
 .grid-container{
   display: grid;
