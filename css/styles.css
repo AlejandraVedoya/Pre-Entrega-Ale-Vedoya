@@ -79,9 +79,9 @@ body {
   
 .grid-container {
   display: grid;
-  gap: 0.5rem;
-  /* min-height: 100dvh; */
-  grid-template-columns: repeat(4, 1fr);
+  /* gap: 0.5rem; */
+ 
+ grid-template-columns: repeat(4, 1fr);
   padding: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -90,8 +90,7 @@ body {
   
 
 .tarjeta{
-  width:20rem;
-  border: 1px solid lightgray;
+  width:18rem;
   cursor: pointer;
   }
 
@@ -116,9 +115,14 @@ body {
 
 .imagen{
   margin: 20px;
-  padding: 20px;
+  padding-bottom: 20px;
   }
 
+  .precio{
+      background-color: white;
+      padding-left: 1rem;
+      padding-bottom: 1rem;
+  }
 .pie{
   background: #6699ff;
   border-radius:0 0 15px 15px;
@@ -226,7 +230,30 @@ h1{
       }
   }
 
+.cuerpo{
+  height: 70%;
+  background-color: white;
+  justify-content: center;
+  padding-left: 3.3rem; 
+  
+  align-items: center;
+  
+}
 
+img, .imagen{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  width: 190px;
+
+}
+  .precio{
+      padding-left: 1rem;
+      padding-bottom: 1rem;
+  }
 
 .header{
   font-size: smaller;
@@ -261,6 +288,7 @@ h1{
 
 .grid-container{
   display: grid;
+  gap: 3rem;
   grid-template-columns: 1fr;
   padding-left: 3rem;
   }
